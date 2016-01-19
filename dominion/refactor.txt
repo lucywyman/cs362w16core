@@ -1,0 +1,17 @@
+Condensed multiple variable declarations to one line.
+
+Moved the functionality of the Adventurer branch of case statement in 
+``cardEffect()`` to it's own function ``adventurerAction()`` in 
+``dominion.c``.  
+
+Moved the functionality of the Council room branch of the case statement in
+``cardEffect()`` to it's own function ``councilAction()`` in ``dominion.c``
+
+Moved the functionality of the Feast branch of the case statement in 
+``cardEffect()`` to it's own function ``feastAction()`` in ``dominion.c``
+
+Moved the functionality of the Mine branch of the case statement in 
+``cardEffect()`` to it's own function ``mineAction()`` in ``dominion.c``
+
+Moved the functionality of the Remodel branch of the case statement in
+``cardEffect()`` to it's own function ``remodelAction()`` in ``dominion.c``
