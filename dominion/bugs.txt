@@ -1,0 +1,2 @@
+1. If `whoseTurn` is given an invalid player it does not error
+2. 

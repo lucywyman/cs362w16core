@@ -1,0 +1,13 @@
+Gcov found that only 25.04% of lines were executed when I ran the unit tests,
+which is pretty abominable. Generally you want to shoot for at least 80%, much
+like grades 70% is average, 80% is pretty good, >90% is amazing. 25.04% is 
+indicative of failure.  This implies that the other 75% of the lines are 
+not being executed, which is 75% of lines that could have a bug in them that 
+we don't know about. This is generally what's implied by code coverage -- the 
+number of lines that you are at least touching with your tests, indicating
+that those lines are at least not horribly horribly broken. But if a line is 
+never touched how would you know?  
+
+Granted, this perspective is a little misguided -- a high code coverage 
+percentage does not imply that your tests are *good*, but higher coverage 
+is better than low coverage. 
